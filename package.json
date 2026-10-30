@@ -1,0 +1,17 @@
+{
+  "name": "medicare",
+  "version": "1.0.0",
+  "description": "Medicine Inventory Manager",
+  "main": "Server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --env-file=.env Server.js"
+  },
+  "author": "Mahmoud Mohammed",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.3.0",
+    "mongoose": "^9.11.4",
+    "nodemon": "^3.1.14"
+  }
+}
